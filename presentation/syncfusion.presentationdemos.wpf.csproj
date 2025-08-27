@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>syncfusion.presentationdemos.wpfapplication</AssemblyName>
+    <RootNamespace>syncfusion.presentationdemos.wpf</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net9.0-windows' ">
+    <RuntimeHostConfigurationOption Include="Switch.System.Windows.Controls.DisableDynamicResourceOptimization" Value="true" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFRAMEWORK' ">
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\common\syncfusion.demoscommon.wpf_lib.csproj">
+      <Name>syncfusion.demoscommon.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="syncfusion.presentationdemos.wpf_lib.csproj">
+      <Name>syncfusion.presentationdemos.wpf_lib</Name>
+    </ProjectReference>
+    <None Remove="Assets\Presentation\*" />
+    <Page Remove="Views\*" />
+    <Compile Remove="Views\*" />
+    <Compile Remove="PresentationDemosViewModel.cs" />
+
+    <Reference Include="Syncfusion.Chart.WPF.SampleLayout">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Chart.WPF.SampleLayout.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Compression.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.OfficeChart.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.OfficeChart.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Pdf.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Presentation.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Presentation.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.PresentationToPdfConverter.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.PresentationToPdfConverter.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Tools.WPF.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="..\common\demos.common.props">
+  </Import>
+  <Import Project="..\targets\MultiTargeting.targets" />
+</Project>
