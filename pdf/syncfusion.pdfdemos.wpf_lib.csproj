@@ -1,0 +1,224 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <AssemblyName>syncfusion.pdfdemos.wpf</AssemblyName>
+    <RootNamespace>syncfusion.pdfdemos.wpf</RootNamespace>
+  </PropertyGroup>
+   <ItemGroup Condition=" '$(TargetFramework)' == 'net9.0-windows' ">
+    <RuntimeHostConfigurationOption Include="System.Windows.Media.UseLegacyResourceReferenceBehavior" Value="true"/>
+   </ItemGroup>
+   <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFRAMEWORK' ">
+	<Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup> 
+  <ItemGroup>
+    <Reference Include="Syncfusion.Compression.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.ExcelToPDFConverter.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.ExcelToPDFConverter.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Pdf.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.PdfViewer.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.PdfViewer.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.XlsIO.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.XlsIO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.OfficeChart.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.OfficeChart.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DocIO.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.DocIO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DocToPDFConverter.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.DocToPDFConverter.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.PdfToImageConverter.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.PdfToImageConverter.Base.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\common\syncfusion.demoscommon.wpf_lib.csproj">
+      <Name>syncfusion.demoscommon.wpf_lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+   <None Remove="Properties\Settings.settings" />
+    <None Include="Properties\Settings.settings" />
+	<None Remove="Assets\**" />
+	<None Remove="obj_47\**" />
+	<Resource Include="Assets\**" />
+	<Compile Remove="obj_47\**" />
+	<EmbeddedResource Remove="obj_47\**" />    
+    <Content Include="Assets\PDF\Exceltopdf.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Product Catalog.pdf" />
+    <Content Include="Assets\PDF\Product Catalog.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\AdventureWorkCycle.xml" />
+    <Content Include="Assets\PDF\AdventureWorkCycle.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\arabic.txt" />
+    <Content Include="Assets\PDF\arabic.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Essential DocIO.txt" />
+    <Content Include="Assets\PDF\Essential DocIO.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Essential PDF.txt" />
+    <Content Include="Assets\PDF\Essential PDF.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Essential studio.txt" />
+    <Content Include="Assets\PDF\Essential studio.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Essential XlsIO.txt" />
+    <Content Include="Assets\PDF\Essential XlsIO.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\InvoiceProductList.xml" />
+    <Content Include="Assets\PDF\InvoiceProductList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Manual.txt" />
+    <Content Include="Assets\PDF\Manual.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Orders.xml" />
+    <Content Include="Assets\PDF\Orders.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Products.xml" />
+    <Content Include="Assets\PDF\Products.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\BorderTemplate.pdf" />
+    <Content Include="Assets\PDF\BorderTemplate.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Chart.xlsx" />
+    <Content Include="Assets\PDF\Chart.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\CorporateBrochure.pdf" />
+    <Content Include="Assets\PDF\CorporateBrochure.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\CorruptedDocument.pdf" />
+    <Content Include="Assets\PDF\CorruptedDocument.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\DigitalSignature.pdf" />
+    <Content Include="Assets\PDF\DigitalSignature.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\EmpDetails.pdf" />
+    <Content Include="Assets\PDF\EmpDetails.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Essential_Studio.pdf" />
+    <Content Include="Assets\PDF\Essential_Studio.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Essential_XlsIO.pdf" />
+    <Content Include="Assets\PDF\Essential_XlsIO.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Form.pdf" />
+    <Content Include="Assets\PDF\Form.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\HTTP Succinctly.pdf" />
+    <Content Include="Assets\PDF\HTTP Succinctly.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\imageDoc.pdf" />
+    <Content Include="Assets\PDF\imageDoc.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\jQuery_Succinctly.pdf" />
+    <Content Include="Assets\PDF\jQuery_Succinctly.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Manual.pdf" />
+    <Content Include="Assets\PDF\Manual.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\NotoSerif-Black.otf" />
+    <Content Include="Assets\PDF\NotoSerif-Black.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\PDF.pfx" />
+    <Content Include="Assets\PDF\PDF.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\PDF_A.rtf" />
+    <Content Include="Assets\PDF\PDF_A.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\rgb.icc" />
+    <Content Include="Assets\PDF\rgb.icc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\SourceTemplate.pdf" />
+    <Content Include="Assets\PDF\SourceTemplate.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\StandardFont.pdf" />
+    <Content Include="Assets\PDF\StandardFont.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Stock.docx" />
+    <Content Include="Assets\PDF\Stock.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\xfaTemplate.pdf" />
+    <Content Include="Assets\PDF\xfaTemplate.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Redaction.pdf" />
+    <Content Include="Assets\PDF\Redaction.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\RemoveImage.pdf" />
+    <Content Include="Assets\PDF\RemoveImage.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\XPStoPDF.xps" />
+    <Content Include="Assets\PDF\XPStoPDF.xps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\Report.xml" />
+    <Content Include="Assets\PDF\Report.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="Assets\PDF\DoctoPDF.doc" />
+    <Content Include="Assets\PDF\DoctoPDF.doc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="App.config" />
+    <Compile Remove="App.xaml.cs" />
+    <ApplicationDefinition Remove="App.xaml" />
+  </ItemGroup>
+  <Import Project="..\targets\MultiTargeting.targets" />
+  <Import Project="..\common\demos.common.props">
+  </Import>
+</Project>
