@@ -14,7 +14,7 @@ This section guides you to use the Syncfusion Document SDK WPF demos in your app
 ## <a name="requirements-to-run-the-demo"></a>Requirements to run the demo
 
 * Make sure your development PC is running with Windows 11 and Windows 10 OS version 1809 (build 17763) or a later version.
-* Requires Visual Studio 2022 (with update 17.13 or later) with Windows App SDK [Extension](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/release-notes-archive/stable-channel-1.6#version-16)
+* Requires Visual Studio 2022 or later with Windows App SDK [Extension](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/release-notes-archive/stable-channel-1.6#version-16)
 * Need a [Net462](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net462) ,[.Net 8.0-windows](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) and [.Net 9.0-windows](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) requirements for running the demos.
 
 ## <a name="how-to-run-the-demos"></a>How to run the demos
