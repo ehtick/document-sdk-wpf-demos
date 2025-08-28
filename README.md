@@ -19,29 +19,24 @@ This section guides you to use the Syncfusion Document SDK WPF demos in your app
 
 ## <a name="how-to-run-the-demos"></a>How to run the demos
 
-### Main Document SDK Sample Browser
-* Clone or download this repository.
-* Open `SampleBrowser.DocumentSDK.WPF.sln` file present under **SampleBrowser** folder in Visual Studio as startup project.
-* Restore NuGet packages for all the demo projects and run.
-
 ### Individual Document Format Demos
-You can also run individual demos for specific document formats:
+You can run individual demos for specific document formats:
 
 #### Word Processing (DocIO)
 * Open `Syncfusion.DocIODemos.WPF.sln` from the **docio** folder.
-* Choose between .NET462 or .NET 8.0-windows or .NET 9.0-windows project versions.
+* Select the .NET target version as .NET Framework 4.6.2 or .NET 8.0-windows, or .NET 9.0-windows for the project.
 
 #### PDF Processing
 * Open `Syncfusion.PdfDemos.WPF.sln` from the **pdf** folder.
-* Choose between .NET462 or .NET 8.0-windows or .NET 9.0-windows project versions.
+* Select the .NET target version as .NET Framework 4.6.2 or .NET 8.0-windows, or .NET 9.0-windows for the project.
 
 #### PowerPoint Processing
 * Open `Syncfusion.PresentationDemos.WPF.sln` from the **presentation** folder.
-* Choose between .NET462 or .NET 8.0-windows or .NET 9.0-windows project versions.
+* Select the .NET target version as .NET Framework 4.6.2 or .NET 8.0-windows, or .NET 9.0-windows for the project.
 
 #### Excel Processing (XlsIO)
 * Open `Syncfusion.XlsIODemos.WPF.sln` from the **xlsio** folder.
-* Choose between .NET462 or .NET 8.0-windows or .NET 9.0-windows project versions.
+* Select the .NET target version as .NET Framework 4.6.2 or .NET 8.0-windows, or .NET 9.0-windows for the project.
 
 **Notes:** While downloading the zip file, follow below steps
 * Before you unzip the archive, right-click it, select **Properties**, and then select **Unblock**.
@@ -100,11 +95,12 @@ You can also run individual demos for specific document formats:
 * Animation and transition support
 
 #### Excel Processing (XlsIO)
-* Create, read, and edit Excel workbooks
-* Convert Excel files to PDF, HTML, and images
-* Charts and pivot table support
-* Formula calculations and data validation
-* Worksheet protection and encryption
+* Create, read, and edit Excel workbooks and worksheets
+* Convert Excel files to PDF, images, HTML, and CSV
+* Support for 400+ Excel formulas and formula calculation engine
+* Create and manipulate charts, sparklines, and pivot tables
+* Apply conditional formatting, data validation, and filters
+* Protect worksheets and workbooks with password encryption
 
 ## <a name="documentation"></a>Documentation
 
