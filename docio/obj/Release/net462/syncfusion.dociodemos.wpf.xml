@@ -1,0 +1,2030 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>syncfusion.dociodemos.wpf</name>
+    </assembly>
+    <members>
+        <member name="T:syncfusion.dociodemos.wpf.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:syncfusion.dociodemos.wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:syncfusion.dociodemos.wpf.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.AdvancedReplace">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            AdvancedReplace
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.AdvancedReplace.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.AdvancedReplace.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.AdvancedReplace.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.AutoShapes">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            AutoShapes
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.AutoShapes.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.AutoShapes.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.AutoShapes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.BarChart">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            BarChart
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.BarChart.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.BarChart.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.BarChart.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.BookmarkNavigation">
+            <summary>
+            Interaction logic for BookmarkNavigation.xaml
+            </summary>
+            <summary>
+            BookmarkNavigation
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.BookmarkNavigation.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.BookmarkNavigation.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Create word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.BookmarkNavigation.ButtonView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens the template document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.BookmarkNavigation.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.BookmarkNavigation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.Bookmarks">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Bookmarks
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Bookmarks.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Bookmarks.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.CloneandMerge">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            CloneandMerge
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CloneandMerge.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CloneandMerge.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CloneandMerge.GetImportOption(System.Int32)">
+            <summary>
+            Returns the ImportOption.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CloneandMerge.CloneDocument(Syncfusion.DocIO.DLS.WordDocument,System.String)">
+            <summary>
+            Clones the document.
+            </summary>
+            <param name="srcDoc">The SRC doc.</param>
+            <param name="fileName">Name of the file.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CloneandMerge.btnBrowse_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnBrowse control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CloneandMerge.btnBrowse1_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnBrowse1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CloneandMerge.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.CompareDocuments">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            CompareDocuments
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CompareDocuments.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CompareDocuments.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Compare word documents.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CompareDocuments.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.CreateEquation">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            CreateEquation
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.AddParagraph(Syncfusion.DocIO.DLS.IWSection,System.String)">
+            <summary>
+            Adds new paragraph into the section
+            </summary>
+            <param name="section">Represents a section in Word document</param>
+            <param name="text">Represents a text to append in paragraph</param>
+            <returns>Returns a paragraph to add equation</returns>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.CreateTripleScalarProduct(Syncfusion.DocIO.DLS.IWParagraph)">
+            <summary>
+            Creates an expansion of triple scalar product
+            </summary>
+            <param name="paragraph">Represents a paragraph to add MathML element</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.CreateVectorRelation(Syncfusion.DocIO.DLS.IWParagraph)">
+            <summary>
+            Creates an expansion of vector relation
+            </summary>
+            <param name="paragraph">Represents a paragraph to add MathML element</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.ConvertShortToString(System.Int16)">
+            <summary>
+            Converts short value to string
+            </summary>
+            <param name="value">Represents a short value</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.CreateSumToThePowerOfN(Syncfusion.DocIO.DLS.IWParagraph)">
+            <summary>
+            Creates an equation with sum to the power of N
+            </summary>
+            <param name="paragraph">Represents a paragraph to add MathML element</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.CreateGammaFunction(Syncfusion.DocIO.DLS.IWParagraph)">
+            <summary>
+            Creates an expansion of Gamma function
+            </summary>
+            <param name="paragraph">Represents a paragraph to add MathML element</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.CreateFourierseries(Syncfusion.DocIO.DLS.IWParagraph)">
+            <summary>
+            Creates a Fourier series equation
+            </summary>
+            <param name="paragraph">Represents a paragraph to add MathML element</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.AddMathText(Syncfusion.DocIO.DLS.WordDocument,Syncfusion.Office.IOfficeMath,System.String)">
+            <summary>
+            Adds a math text
+            </summary>
+            <param name="document">Represents a Word document to add math text</param>
+            <param name="officeMath">Represents an office math to add math text</param>
+            <param name="text">Represents the text to set for math item</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.AddMathScript(Syncfusion.Office.IOfficeMath,Syncfusion.Office.MathScriptType)">
+            <summary>
+            Adds a math Subscript or Superscript equation
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.AddMathAccent(Syncfusion.DocIO.DLS.WordDocument,Syncfusion.Office.IOfficeMath,System.Int16,System.String)">
+            <summary>
+            Adds a accent equation
+            </summary>
+            <param name="document">Represents a Word document</param>
+            <param name="officeMath">Represents a office math to add accent equation</param>
+            <param name="accentCharValue">Represents a accent character</param>
+            <param name="text">Represents a text for accent equation</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.AddMatrixRowValues(Syncfusion.DocIO.DLS.WordDocument,Syncfusion.Office.IOfficeMathMatrixRow,System.String)">
+            <summary>
+            Add values in matrix row
+            </summary>
+            <param name="document">Represents a Word document to add matrix</param>
+            <param name="mathMatrixRow">Represents a matrix row to add values</param>
+            <param name="text">Represents a base text value for Subscript and Superscript equation</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateEquation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.CreateSmartArt">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            CreateSmartArt
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.CreateListSmartArt(Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Creates a list SmartArt diagrams.
+            </summary>
+            <param name="document">The Word document where the SmartArt diagram will be added.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.CreateProcessSmartArt(Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Creates a Process SmartArt diagrams.
+            </summary>
+            <param name="document">The Word document where the SmartArt diagram will be added.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.CreateCycleSmartArt(Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Creates a Cycle SmartArt diagrams.
+            </summary>
+            <param name="document">The Word document where the SmartArt diagram will be added.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.CreateHierarchySmartArt(Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Creates a Hierarchy SmartArt diagrams.
+            </summary>
+            <param name="document">The Word document where the SmartArt diagram will be added.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.CreateRelationshipSmartArt(Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Creates a Relationship SmartArt diagrams.
+            </summary>
+            <param name="document">The Word document where the SmartArt diagram will be added.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.CreateMatrixSmartArt(Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Creates a Matrix SmartArt diagrams.
+            </summary>
+            <param name="document">The Word document where the SmartArt diagram will be added.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.CreatePyramidSmartArt(Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Creates a Pyramid SmartArt diagrams.
+            </summary>
+            <param name="document">The Word document where the SmartArt diagram will be added.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.CreatePictureSmartArt(Syncfusion.DocIO.DLS.WordDocument,System.String)">
+            <summary>
+            Creates a Picture SmartArt diagrams.
+            </summary>
+            <param name="document">The Word document where the SmartArt diagram will be added.</param>
+            <param name="dataPath">The path to the folder containing images.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.AddSmartArtChildNode(Syncfusion.Office.IOfficeSmartArtNode,System.String,System.String,System.Single)">
+            <summary>
+            Adds two child nodes to a given SmartArt node and applies formatting.
+            </summary>
+            <param name="node">The SmartArt node to which child nodes will be added.</param>
+            <param name="childText1">Text content for the first child node.</param>
+            <param name="childText2">Text content for the second child node.</param>
+            <param name="fontSize">Font size to be applied to the child nodes.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.AddPicture(Syncfusion.Office.IOfficeSmartArtNode,System.String)">
+            <summary>
+            Loads an image from the specified file path and assigns it to the given SmartArt node.
+            </summary>
+            <param name="node">The SmartArt node where the image will be applied.</param>
+            <param name="imagePath">The file path of the image to be assigned.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateSmartArt.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.CreateUsingLaTeX">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            CreateUsingLaTeX
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateUsingLaTeX.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateUsingLaTeX.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Create a mathematical equation using LaTeX in Word Document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.CreateUsingLaTeX.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.DocumentProtection">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            DocumentProtection
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.DocumentProtection.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.DocumentProtection.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.DocumentProtection.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.DocumentSettings">
+            <summary>
+            Interaction logic for DocumentSettings.xaml
+            </summary>
+            <summary>
+            DocumentSettings
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.DocumentSettings.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.DocumentSettings.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.DocumentSettings.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.EditEquation">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            EditEquation
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditEquation.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditEquation.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditEquation.ButtonView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens the template document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditEquation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.EditSmartArt">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            EditSmartArt
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditSmartArt.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditSmartArt.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditSmartArt.ButtonView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens the template document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditSmartArt.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.EditUsingLaTeX">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            EditUsingLaTeX
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditUsingLaTeX.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditUsingLaTeX.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Modify a mathematical equation using LaTeX in a Word document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditUsingLaTeX.ButtonView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens the template document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EditUsingLaTeX.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.EmployeeReport">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            EmployeeReport
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EmployeeReport.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EmployeeReport.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EmployeeReport.GetMailMergeDataTableEmployee">
+            <summary>
+            Gets the mail merge data table.
+            </summary>        
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EmployeeReport.GetEmployees(System.Xml.XmlReader)">
+            <summary>
+            Gets the employees.
+            </summary>
+            <param name="reader">The reader.</param>        
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EmployeeReport.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.EncryptandDecrypt">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            EncryptandDecrypt
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EncryptandDecrypt.encrypt_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Encrypt the word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EncryptandDecrypt.decrpt_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Decrypt the word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.EncryptandDecrypt.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.FindAndReplace">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            FindAndReplace
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FindAndReplace.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FindAndReplace.btnReplace_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Replaces the text
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FindAndReplace.btnBrowse_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the input file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FindAndReplace.checkBoxCase_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Toggles between case sensitive and insensitive
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FindAndReplace.checkBoxWord_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Toggles whole word.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FindAndReplace.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.FootnotesandEndnotes">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            FootnotesandEndnotes
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FootnotesandEndnotes.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FootnotesandEndnotes.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FootnotesandEndnotes.CreateFootNote(Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Creates footnote
+            </summary>
+            <param name="document"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FootnotesandEndnotes.CreateEndNote(Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Creates end note
+            </summary>
+            <param name="document"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FootnotesandEndnotes.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FootnotesandEndnotes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.FormatTable">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            FormatTable
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormatTable.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormatTable.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormatTable.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormatTable.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.FormatText">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            FormatText
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormatText.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormatText.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormatText.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.FormFillingandProtection">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            FormFillingandProtection
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormFillingandProtection.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormFillingandProtection.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormFillingandProtection.ApplyCharacterFormat(Syncfusion.DocIO.DLS.WTextRange)">
+            <summary>
+            Apply character format for text range
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.FormFillingandProtection.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.Forms">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Forms
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Forms.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Forms.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Create Form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Forms.btnFill_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Fill Form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Forms.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Forms.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.GroupShapes">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            GroupShapes
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.GroupShapes.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.GroupShapes.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.GroupShapes.CreateChildShape(Syncfusion.DocIO.DLS.AutoShapeType,System.Drawing.RectangleF,System.Single,System.Boolean,System.Boolean,System.Drawing.Color,System.String,Syncfusion.DocIO.DLS.GroupShape,Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Create a child shape with its specified properties and add into specified group shape
+            </summary>
+            <param name="autoShapeType">Represent the AutoShapeType of child shape</param>
+            <param name="bounds">Represent the bounds of child shape to be placed</param>
+            <param name="rotation">Represent the rotation of child shape</param>
+            <param name="flipH">Represent the horizontal flip of child shape</param>
+            <param name="flipV">Represent the vertical flip of child shape</param>
+            <param name="fillColor">Represent the fill color of child shape</param>
+            <param name="text">Represent the text that to be append in child shape</param>
+            <param name="groupShape">Represent the group shape to add a child shape</param>
+            <param name="wordDocument">Represent the Word document instance</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.GroupShapes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.HeaderandFooter">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            HeaderandFooter
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HeaderandFooter.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HeaderandFooter.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HeaderandFooter.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HeaderandFooter.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.HelloWorld">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            HelloWorld
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HelloWorld.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HelloWorld.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HelloWorld.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HelloWorld.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.HTMLToWord">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            HTMLToWord
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HTMLToWord.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HTMLToWord.btnBrowse_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the source html document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HTMLToWord.btnToWord_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Converts the input html file to a word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.HTMLToWord.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.Hyperlink">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Hyperlink
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.btnGenerate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Saves the edited hyperlink.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.btnTemplate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The source template document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.radioWeb_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Updates the web hyperlinks
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.radioEmail_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Updates the mail hyperlinks
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.radioFile_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Updates the file hyperlinks
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.radioBookmark_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Updates the bookmark hyperlinks.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.btnFile_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The file browser used to upload in the File Hyperlink.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.InsertHyperlink">
+            <summary>
+            This methods creates hyperlinks and insert them in the document.
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.FindHyperLinks">
+            <summary>
+            Find hyperlinks in the loaded document and updates the underlying database.
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.UpdateListBindings(System.Collections.ArrayList,System.String)">
+            <summary>
+            Updates the database with the edited texts.
+            </summary>
+            <param name="list"></param>
+            <param name="dataMember"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Hyperlink.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.ImageInsertion">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            ImageInsertion
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.ImageInsertion.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.ImageInsertion.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.ImageInsertion.ApplyFormattingForCaption(Syncfusion.DocIO.DLS.WParagraph)">
+            <summary>
+            Apply formattings for image caption paragraph
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.ImageInsertion.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.ImageInsertion.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.InsertBreak">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            InsertBreak
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.InsertBreak.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.InsertBreak.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.InsertBreak.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.InsertOLEObject">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            InsertOLEObject
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.InsertOLEObject.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Insert OLE object from other document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.InsertOLEObject.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.LetterFormat">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            LetterFormat
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.LetterFormat.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.LetterFormat.btnSubmit_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document and executes mail merge
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.LetterFormat.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.MacroPreservation">
+            <summary>
+            Interaction logic for MacroPreservation.xaml
+            </summary>
+            <summary>
+            MacroPreservation
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MacroPreservation.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MacroPreservation.Button_Click(System.Object,System.EventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MacroPreservation.Button_Click1(System.Object,System.EventArgs)">
+            <summary>
+            The source template document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MacroPreservation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.MailMergeEvent">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            MailMergeEvent
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MailMergeEvent.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MailMergeEvent.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MailMergeEvent.GetDataTable">
+            <summary>
+            Creates data table
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MailMergeEvent.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MailMergeEvent.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.MarkdownToWord">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            MarkdownToWord
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MarkdownToWord.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MarkdownToWord.btnBrowse_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the source Markdown document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MarkdownToWord.btnToWord_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Converts the input html file to a word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.MarkdownToWord.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.NestedMailMerge">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            NestedMailMerge
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.NestedMailMerge.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.NestedMailMerge.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.NestedMailMerge.GetMailMergeDataTable">
+            <summary>
+            Gets Explicit Employee collection(entitites are nested)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.NestedMailMerge.GetEmployee(System.Xml.XmlReader)">
+            <summary>
+            Gets the order details
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception">reader</exception>
+            <exception cref="T:System.Xml.XmlException">Unexpected xml tag  + reader.LocalName</exception>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.NestedMailMerge.GetCustomer(System.Xml.XmlReader)">
+            <summary>
+            Gets the customer details
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception">reader</exception>
+            <exception cref="T:System.Xml.XmlException">Unexpected xml tag  + reader.LocalName</exception>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.NestedMailMerge.GetOrders(System.Xml.XmlReader)">
+            <summary>
+            Gets the order details
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception">reader</exception>
+            <exception cref="T:System.Xml.XmlException">Unexpected xml tag  + reader.LocalName</exception>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.NestedMailMerge.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.PieChart">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            PieChart
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.PieChart.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.PieChart.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.PieChart.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.Print">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Print
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Print.btnToPrint_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Print the document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Print.worker_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+            <summary>
+            Run the UITasks
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Print.InitializeUITasks(System.Object)">
+            <summary>
+            Run the Print Dialog
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Print.worker_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Run the UITask
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Print.InitializeNonUITasks">
+            <summary>
+            Render Word document as Image
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Print.btnBrowse_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Browse a input word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Print.OnPrintPage(System.Object,System.Drawing.Printing.PrintPageEventArgs)">
+            <summary>
+            The PrintPage event is called for each page to be printed.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Print.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.RTFToWord">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            RTFToWord
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.RTFToWord.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.RTL">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            RTL
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.RTL.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.RTL.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.RTL.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.SalesInvoice">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            SalesInvoice
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.SalesInvoice.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.SalesInvoice.MailMerge_MergeField(System.Object,Syncfusion.DocIO.DLS.MergeFieldEventArgs)">
+            <summary>
+            Merge field event
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.SalesInvoice.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document with mail merge
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.SalesInvoice.ButtonView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens the template document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.SalesInvoice.ExecuteMail_Doc(System.Int32)">
+            <summary>
+            Mail merge
+            </summary>
+            <param name="ID"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.SalesInvoice.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.Styles">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Styles
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Styles.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Styles.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document with built - in styles
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Styles.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.TableInsertion">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            TableInsertion
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableInsertion.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableInsertion.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.TableofContent">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            TableofContent
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableofContent.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableofContent.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableofContent.radioBtnCustom_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Disable the checkbox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableofContent.radioBtnDefault_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Disable the checkbox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableofContent.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.TableOfFigures">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            TableOfFigures
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableOfFigures.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableOfFigures.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableOfFigures.ButtonView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens the template document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableOfFigures.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.TableStyles">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            TableStyles
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableStyles.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableStyles.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document with built - in styles
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableStyles.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document with Custom styles
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>        
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableStyles.GetMailMergeDataTable">
+            <summary>
+            Gets the mail merge data table.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception">reader</exception>
+            <exception cref="T:System.Xml.XmlException">Unexpected xml tag  + reader.LocalName</exception>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableStyles.GetSupplier(System.Xml.XmlReader)">
+            <summary>
+            Gets the suppliers.
+            </summary>
+            <param name="reader">The reader.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception">reader</exception>
+            <exception cref="T:System.Xml.XmlException">Unexpected xml tag  + reader.LocalName</exception>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TableStyles.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.TrackChanges">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            TrackChanges
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TrackChanges.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TrackChanges.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TrackChanges.GetAuthorName(System.Int32)">
+            <summary>
+            Gets the author name
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TrackChanges.RejectRevisionsOfAuthor(Syncfusion.DocIO.DLS.WordDocument,System.String)">
+            <summary>
+             Rejects the all changes made by the author
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TrackChanges.AcceptRevisionsOfAuthor(Syncfusion.DocIO.DLS.WordDocument,System.String)">
+            <summary>
+             Accepts the all changes made by the author
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TrackChanges.ButtonView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens the template document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.TrackChanges.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.UpdateFields">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            UpdateFields
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.UpdateFields.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.UpdateFields.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.UpdateFields.UnlinkFieldsInDocument(Syncfusion.DocIO.DLS.WordDocument)">
+            <summary>
+            Iterates to document elements and get fields.
+            </summary>
+            <param name="document">Input Word document.</param>
+            <param name="fieldType">Type of the field to find in document.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.UpdateFields.RemoveFieldCodesInTextBody(Syncfusion.DocIO.DLS.WTextBody)">
+            <summary>
+            Iterates into body items.
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.UpdateFields.RemoveFieldCodesInParagraph(Syncfusion.DocIO.DLS.ParagraphItemCollection)">
+            <summary>
+            Iterates into paragraph items.
+            </summary>
+            <param name="paragraph">The paragraph.</param>
+            <param name="fieldType">Type of field.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.UpdateFields.RemoveFieldCodesInTable(Syncfusion.DocIO.DLS.WTable)">
+            <summary>
+            Iterates into table.
+            </summary>
+            <param name="table">The table.</param>
+            <param name="fieldType">Type of Field.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.UpdateFields.ButtonView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens the template document.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.UpdateFields.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.Watermark">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Watermark
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Watermark.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Watermark.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Watermark.GetFileStream(System.String)">
+            <summary>
+            Get the file as stream from assets
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.Watermark.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordMLToWord">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordMLToWord
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordMLToWord.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordToEPUB">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToEPUB
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToEPUB.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordToHTML">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToHTML
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToHTML.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToHTML.btnToHTML_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Converts the Word document to HTML file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToHTML.btnBrowse_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the source word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToHTML.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordToImage">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToImage
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToImage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordToMarkdown">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToMarkdown
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToMarkdown.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordToODT">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToODT
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToODT.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordToPDF">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToPDF
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToPDF.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordToPDFA">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToPDFA
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToPDFA.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordToPDFUA">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToPDFUA
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToPDFUA.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordToRTF">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToRTF
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToRTF.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.WordToWordML">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToWordML
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.WordToWordML.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.dociodemos.wpf.XMLMapping">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            XMLMapping
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.XMLMapping.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.XMLMapping.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.XMLMapping.MapCustomXMLPart(Syncfusion.DocIO.DLS.IWParagraph,System.String,Syncfusion.DocIO.DLS.CustomXMLPart)">
+            <summary>
+            Insert and Maps CustomXMLPart to content control based on XPath.
+            </summary>
+            <param name="paragraph">Paragraph instance to append content control.</param>
+            <param name="XPath">XPath of the CustomXMLNode to be mapped</param>
+            <param name="custXMLPart">CustomXMLPart of the CustomXMLNode</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.XMLMapping.InsertAndMapEmployees(Syncfusion.DocIO.DLS.WordDocument,System.String,Syncfusion.DocIO.DLS.CustomXMLPart)">
+            <summary>
+            Inserts content control and maps the employees details to it. 
+            </summary>
+            <param name="document">Word document instance.</param>
+            <param name="xmlRootPath">Custom XML root Xpath.</param>
+            <param name="docIOxmlPart">CustomXMLPart instance.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.XMLMapping.InsertAndMapEmployee(Syncfusion.DocIO.DLS.WordDocument,Syncfusion.DocIO.DLS.CustomXMLNode,System.String,Syncfusion.DocIO.DLS.CustomXMLPart,System.Int32)">
+            <summary>
+            Inserts content control and maps the employee details to it.
+            </summary>
+            <param name="document">Word document instance.</param>
+            <param name="employeesNode">CustomXMLNode of employee.</param>
+            <param name="rootXmlPath">Custom XML root Xpath.</param>
+            <param name="docIOxmlPart">CustomXMLPart instance.</param>
+            <param name="empIndex">Current employee index.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.XMLMapping.InsertAndMapCustomer(Syncfusion.DocIO.DLS.WordDocument,Syncfusion.DocIO.DLS.CustomXMLNode,Syncfusion.DocIO.DLS.CustomXMLPart,System.String,System.Int32)">
+            <summary>
+            Insert a content controls and maps Customer details to it.
+            </summary>
+            <param name="document">Word document instance.</param>
+            <param name="customerNode">CustomXMLNode of customer.</param>
+            <param name="docIOxmlPart">CustomXMLPart instance.</param>
+            <param name="empPath">Current employee index.</param>
+            <param name="custIndex">Current customer index.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.XMLMapping.InsertAndMapOrders(Syncfusion.DocIO.DLS.WordDocument,Syncfusion.DocIO.DLS.CustomXMLNode,Syncfusion.DocIO.DLS.CustomXMLPart,System.String,System.Int32,System.Boolean)">
+            <summary>
+            Insert a content controls and maps Orders details to it.
+            </summary>
+            <param name="document">Word document instance.</param>
+            <param name="orderNode">CustomXMLNode of order.</param>
+            <param name="docIOxmlPart">CustomXMLPart instance.</param>
+            <param name="custPath">Current customer index</param>
+            <param name="orderIndex">Current order index</param>
+            <param name="isFirst">Indicates whether it is the first order of the customer.</param>
+        </member>
+        <member name="M:syncfusion.dociodemos.wpf.XMLMapping.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,139 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>syncfusion.invoice.wpf</AssemblyName>
+    <RootNamespace>syncfusion.invoice.wpf</RootNamespace>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net9.0-windows' ">
+    <RuntimeHostConfigurationOption Include="Switch.System.Windows.Controls.DisableDynamicResourceOptimization" Value="true" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFRAMEWORK' ">
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Assets\Invoice\*" />
+    <None Remove="Assets\*" />
+    <Resource Include="Assets\Invoice\App.ico" />
+    <Resource Include="Assets\Invoice\Invoice.png" />
+    <Resource Include="Assets\Invoice\syncfusion_logo.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <EmbeddedResource Include="Assets\Invoice\Edit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\ProdutsPriceList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Invoice\SyncfusionLogo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\InvoiceTemplate.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Template.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Assets\Invoice\About.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\Edit.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\Excel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\Excel_Toast.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\Export.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\Northwind.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\PDF.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\PDF_Toast.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\SmallLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\SplashScreen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\StoreLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\Syncfusion.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\Word.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Invoice\Word_Toast.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Remove="Views\ExcelExport.cs" />
+    <Compile Remove="Views\PdfExport.cs" />
+    <Compile Remove="Views\WordExport.cs" />
+    <None Remove="app.config" />
+    <Compile Remove="App.xaml.cs" />
+    <Compile Remove="Invoice.cs" />
+    <Page Remove="InvoiceDemo.xaml" />
+    <Compile Remove="InvoiceDemo.xaml.cs" />
+    <ApplicationDefinition Remove="App.xaml" />
+    <PackageReference Include="Syncfusion.Compression.Base" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.DocIO.Wpf" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.ExcelChartToImageConverter.WPF" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.ExcelToPdfConverter.Wpf" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.Licensing" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.Pdf.Wpf" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.SfGauge.WPF" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.SfMaps.WPF" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.XlsIO.Wpf" Version="31.2.2." />
+  </ItemGroup>
+  <Import Project="..\..\targets\MultiTargeting.targets" />
+  <PropertyGroup Condition=" '$(TargetFramework)'=='net462' ">
+    <SyncfusionAssemblyLocation>4.6.2</SyncfusionAssemblyLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)'=='net8.0-windows' ">
+    <SyncfusionAssemblyLocation>net8.0</SyncfusionAssemblyLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)'=='net9.0-windows' ">
+    <SyncfusionAssemblyLocation>net9.0</SyncfusionAssemblyLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)'=='net462' ">
+    <SyncfusionAssemblyLocation>4.6.2</SyncfusionAssemblyLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)'=='net8.0-windows' ">
+    <SyncfusionAssemblyLocation>net8.0</SyncfusionAssemblyLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)'=='net9.0-windows' ">
+    <SyncfusionAssemblyLocation>net9.0</SyncfusionAssemblyLocation>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
