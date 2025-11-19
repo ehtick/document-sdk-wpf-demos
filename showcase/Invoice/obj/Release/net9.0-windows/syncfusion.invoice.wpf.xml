@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>syncfusion.invoice.wpf</name>
+    </assembly>
+    <members>
+        <member name="T:syncfusion.invoice.wpf.InvoiceDemo">
+            <summary>
+            An empty page that can be used on its own or navigated to within a Frame.
+            </summary>
+            <summary>
+            InvoiceDemo
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.InvoiceDemo.TotalDue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.Initialize">
+            <summary>
+            Initialize
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.Add(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.FieldsPopup_Opened(System.Object,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.myDialog_UpdateRequested(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.myDialog_CloseRequested(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.GoBack(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.Delete(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.InvoiceGrid_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.InvoiceGrid_Tapped(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.InvoiceGrid_DoubleTapped(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.EditDialog_CloseRequested(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.EditDialog_UpdateRequested(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.PDFExport_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.WordExport_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.ExcelExport_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.Export(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.About(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.CreateRowDefinition(System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.CreateColumnDefinition(System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="width"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.AddItem(syncfusion.invoice.wpf.InvoiceItem,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+            <param name="addToGridAlone"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.SetCell(System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="rowIndex"></param>
+            <param name="columnIndex"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.SetCell(System.Int32,System.Int32,System.Windows.Controls.TextBlock)">
+            <summary>
+            
+            </summary>
+            <param name="rowIndex"></param>
+            <param name="columnIndex"></param>
+            <param name="textBlock"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.RemoveItem(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.UpdateGrid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.UpdateTotal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.InvoiceDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.BillingInformation.Name">
+            <summary>
+            Gets or Sets the Name
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.BillingInformation.Address">
+            <summary>
+            Gets or Sets the Address
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.BillingInformation.Date">
+            <summary>
+            Gets or Sets the Date
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.BillingInformation.InvoiceNumber">
+            <summary>
+            Gets or Sets the Invoice
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.BillingInformation.DueDate">
+            <summary>
+            Gets or Sets the Due Date
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.BillingInformation.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:syncfusion.invoice.wpf.Product">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.Product.Name">
+            <summary>
+            Gets or sets the product Name
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.Product.Rate">
+            <summary>
+            Gets or sets the rate of the product
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.Product.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.Product.#ctor(System.String,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="name">Name</param>
+            <param name="rate">Rate</param>
+        </member>
+        <member name="T:syncfusion.invoice.wpf.ProductList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.ProductList.Item(System.String)">
+            <summary>
+            Returns the product based on the index
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.ProductList.LoadFromXml">
+            <summary>
+            Load product information from Embedded XML file
+            </summary>
+        </member>
+        <member name="T:syncfusion.invoice.wpf.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.PdfExport.CreatePDF(System.Collections.Generic.IList{syncfusion.invoice.wpf.InvoiceItem},syncfusion.invoice.wpf.BillingInformation,System.Double)">
+            <summary>
+            Creates PDF
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.PdfExport.ConvertToDataTable``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Convert IEnummberable to DataTable Object
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="T:syncfusion.invoice.wpf.ExportWord">
+            <summary>
+            Helper Class to export invoice details to a Word document
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.ExportWord.CreateWord(System.Collections.Generic.IList{syncfusion.invoice.wpf.InvoiceItem},syncfusion.invoice.wpf.BillingInformation,System.Double)">
+            <summary>
+            Export the UI data to Word document.
+            </summary>
+            <param name="invoiceItems">The InvoiceItems.</param>
+            <param name="billInfo">The BillingInformation.</param>
+            <param name="totalDue">The TotalDue.</param>
+        </member>
+        <member name="T:syncfusion.invoice.wpf.AddressDialog">
+            <summary>
+            Interaction logic for AddressDialog.xaml
+            </summary>
+            <summary>
+            AddressDialog
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.AddressDialog.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.AddressDialog.#ctor(syncfusion.invoice.wpf.BillingInformation)">
+            <summary>
+            
+            </summary>
+            <param name="billInfo"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.AddressDialog.cancelButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.AddressDialog.updateButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.AddressDialog.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.invoice.wpf.BillingInfoEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:syncfusion.invoice.wpf.FieldDialog">
+            <summary>
+            An empty page that can be used on its own or navigated to within a Frame.
+            </summary>
+            <summary>
+            FieldDialog
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.#ctor(syncfusion.invoice.wpf.ProductList)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.#ctor(syncfusion.invoice.wpf.InvoiceItem,System.String,syncfusion.invoice.wpf.ProductList)">
+            <summary>
+            
+            </summary>
+            <param name="newItem"></param>
+            <param name="title"></param>
+            <param name="productList"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.#ctor(syncfusion.invoice.wpf.InvoiceItem,System.String,syncfusion.invoice.wpf.ProductList,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="newItem"></param>
+            <param name="title"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.cancelButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.updtButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.item_GotFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.quantity_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.rate_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.item_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.InitializeFocus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:syncfusion.invoice.wpf.FieldDialog.SelectedProduct">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.UpdateTotalAmount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.CalculateTax">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:syncfusion.invoice.wpf.FieldDialog.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.invoice.wpf.FieldsUpdateEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

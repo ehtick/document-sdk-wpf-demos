@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>syncfusion.presentationdemos.wpf</name>
+    </assembly>
+    <members>
+        <member name="T:syncfusion.presentationdemos.wpf.Animation">
+            <summary>
+            Interaction logic for Animation.xaml
+            </summary>
+            <summary>
+            Animation
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Animation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.ChartCreation">
+            <summary>
+            Interaction logic for ChartCreation.xaml
+            </summary>
+            <summary>
+            ChartCreation
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.ChartCreation.AddSeriesForChart(Syncfusion.Presentation.IPresentationChart)">
+            <summary>
+            Adds the series for the chart.
+            </summary>
+            <param name="chart">Represents the chart instance from the presentation.</param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.ChartCreation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.ProductDetails">
+            <summary>
+            Specifies the Product details
+            </summary>
+        </member>
+        <member name="P:syncfusion.presentationdemos.wpf.ProductDetails.SNO">
+            <summary>
+            Gets or sets the serial number of the product.
+            </summary>
+        </member>
+        <member name="P:syncfusion.presentationdemos.wpf.ProductDetails.ProductName">
+            <summary>
+            Gets or sets the name of the product.
+            </summary>
+        </member>
+        <member name="P:syncfusion.presentationdemos.wpf.ProductDetails.Sum">
+            <summary>
+            Gets or sets the sum value of the product.
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.ProductDetails.#ctor(System.Int32,System.String,System.Decimal)">
+            <summary>
+            Constructor for the ProductDetails to create a new instance.
+            </summary>
+            <param name="serialNumber">Represents the serial number of the product.</param>
+            <param name="productName">Represents the product name.</param>
+            <param name="sum">Represents the sum value of the product.</param>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.ChartModifications">
+            <summary>
+            Interaction logic for ChartModifications.xaml
+            </summary>
+            <summary>
+            ChartModifications
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.ChartModifications.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.CloningSlide">
+            <summary>
+            Interaction logic for CloningSlide.xaml
+            </summary>
+            <summary>
+            CloningSlide
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.CloningSlide.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.Comments">
+            <summary>
+            Interaction logic for Comments.xaml
+            </summary>
+            <summary>
+            Comments
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Comments.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.Connectors">
+            <summary>
+            Interaction logic for Connectors.xaml
+            </summary>
+            <summary>
+            Connectors
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Connectors.AddParagraph(Syncfusion.Presentation.IShape,System.String,Syncfusion.Presentation.IColor)">
+            <summary>
+            Add a paragraph into the specified shape with specified text
+            </summary>
+            <param name="shape">Represent the shape</param>
+            <param name="text">Represent the text to be added</param>
+            <param name="fillColor">Represent the color to fill the shape</param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Connectors.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.CustomizingAppearance">
+            <summary>
+            Interaction logic for CustomizingAppearance.xaml
+            </summary>
+            <summary>
+            CustomizingAppearance
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.CustomizingAppearance.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.EncryptDecrypt">
+            <summary>
+            Interaction logic for EncryptDecrypt.xaml
+            </summary>
+            <summary>
+            EncryptDecrypt
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.EncryptDecrypt.encrypt_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Encrypt the word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.EncryptDecrypt.decrpt_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Decrypt the word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.EncryptDecrypt.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.ExcelDataToChart">
+            <summary>
+            Interaction logic for ExcelDataToChart.xaml
+            </summary>
+            <summary>
+            ExcelDataToChart
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.ExcelDataToChart.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.FindAndHighlight">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            FindAndHighlight
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndHighlight.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndHighlight.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PowerPoint document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndHighlight.checkBoxCase_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Toggles between case sensitive and insensitive
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndHighlight.checkBoxWord_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Toggles whole word.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndHighlight.checkBoxFirstWord_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Toggles First Occurrence word.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndHighlight.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.FindAndReplace">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            FindAndReplace
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndReplace.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndReplace.btnReplace_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Replaces the text
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndReplace.btnBrowse_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the input file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndReplace.checkBoxCase_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Toggles between case sensitive and insensitive
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndReplace.checkBoxWord_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Toggles whole word.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndReplace.checkBoxFirstWord_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Toggles First Occurrence word.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndReplace.ComboBoxSelectedIndexChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Modifies the required changes if combo box value changed.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.FindAndReplace.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.HeaderAndFooter">
+            <summary>
+            Interaction logic for HeaderAndFooter.xaml
+            </summary>
+            <summary>
+            HeaderAndFooter
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.HeaderAndFooter.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.HelloWorld">
+            <summary>
+            Interaction logic for HelloWorld.xaml
+            </summary>
+            <summary>
+            HelloWorld
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.HelloWorld.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.Images">
+            <summary>
+            Interaction logic for Images.xaml
+            </summary>
+            <summary>
+            Images
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Images.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.ManipulatingSmartArt">
+            <summary>
+            Interaction logic for ManipulatingSmartArt.xaml
+            </summary>
+            <summary>
+            ManipulatingSmartArt
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.ManipulatingSmartArt.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.MergingPresentation">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MergingPresentation
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.MergingPresentation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.ModifyAnimation">
+            <summary>
+            Interaction logic for ModifyAnimation.xaml
+            </summary>
+            <summary>
+            ModifyAnimation
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.ModifyAnimation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.Notes">
+            <summary>
+            Interaction logic for Notes.xaml
+            </summary>
+            <summary>
+            Notes
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Notes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.OLEObject">
+            <summary>
+            Interaction logic for OLEObject.xaml
+            </summary>
+            <summary>
+            OLEObject
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.OLEObject.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.PPTXToImage">
+            <summary>
+            Interaction logic for PPTXToImage.xaml
+            </summary>
+            <summary>
+            PPTXToImage
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.PPTXToImage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.PPTXToPDF">
+            <summary>
+            Interaction logic for PPTXToPDF.xaml
+            </summary>
+            <summary>
+            PPTXToPDF
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.PPTXToPDF.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.PPTXToPDFA">
+            <summary>
+            Interaction logic for PPTXToPDF.xaml
+            </summary>
+            <summary>
+            PPTXToPDFA
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.PPTXToPDFA.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.PPTXToPDFUA">
+            <summary>
+            Interaction logic for PPTXToPDF.xaml
+            </summary>
+            <summary>
+            PPTXToPDFUA
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.PPTXToPDFUA.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.Slide">
+            <summary>
+            Interaction logic for Slide.xaml
+            </summary>
+            <summary>
+            Slide
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Slide.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.SlideTransition">
+            <summary>
+            Interaction logic for SlideTransition.xaml
+            </summary>
+            <summary>
+            SlideTransition
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.SlideTransition.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.SmartArtCreation">
+            <summary>
+            Interaction logic for SmartArtCreation.xaml
+            </summary>
+            <summary>
+            SmartArtCreation
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.SmartArtCreation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.Tables">
+            <summary>
+            Interaction logic for Tables.xaml
+            </summary>
+            <summary>
+            Tables
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Tables.SetTableTitle(Syncfusion.Presentation.ISlide)">
+            <summary>
+            Sets the table title.
+            </summary>
+            <param name="slide">Represents the slide instance of the presentation.</param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Tables.AddCell(Syncfusion.Presentation.IRow,System.Data.DataTable)">
+            <summary>
+            Adds the cell content to the table.
+            </summary>
+            <param name="row">Represents the instance of row.</param>
+            <param name="dataTable">Represents the table of the data.</param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Tables.AddHeaderRow(Syncfusion.Presentation.IRow,System.Data.DataRowCollection)">
+            <summary>
+            Adds the content for the row and column for the table.
+            </summary>
+            <param name="row">Represents the particular row.</param>
+            <param name="dataRowCollections">Represents the row collections of the data.</param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Tables.SetCategoryTitle(Syncfusion.Presentation.ITable)">
+            <summary>
+            Sets the title for the category in the table.
+            </summary>
+            <param name="table">Instance to access the table from the presentation.</param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.Tables.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.presentationdemos.wpf.WriteProtection">
+            <summary>
+            Interaction logic for WriteProtection.xaml
+            </summary>
+            <summary>
+            WriteProtection
+            </summary>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.WriteProtection.protect_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Encrypt the word document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.presentationdemos.wpf.WriteProtection.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfviewerdemos.wpf.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:syncfusion.pdfviewerdemos.wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:syncfusion.pdfviewerdemos.wpf.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

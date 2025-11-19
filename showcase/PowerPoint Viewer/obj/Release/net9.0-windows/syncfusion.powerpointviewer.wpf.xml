@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>syncfusion.powerpointviewer.wpf</name>
+    </assembly>
+    <members>
+        <member name="T:syncfusion.powerpointviewer.wpf.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:syncfusion.powerpointviewer.wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:syncfusion.powerpointviewer.wpf.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:syncfusion.powerpointviewer.wpf.PowerPointViewerDemo">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            PowerPointViewerDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.powerpointviewer.wpf.PowerPointViewerDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
