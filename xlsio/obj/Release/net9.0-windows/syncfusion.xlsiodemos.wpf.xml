@@ -1,0 +1,1837 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>syncfusion.xlsiodemos.wpf</name>
+    </assembly>
+    <members>
+        <member name="T:syncfusion.xlsiodemos.wpf.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:syncfusion.xlsiodemos.wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:syncfusion.xlsiodemos.wpf.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.AttendanceTracker">
+            <summary>
+            Interaction logic for AttendanceTracker.xaml
+            </summary>
+            <summary>
+            AttendanceTracker
+            </summary>
+        </member>
+        <member name="F:syncfusion.xlsiodemos.wpf.AttendanceTracker._columnNames">
+            <summary>
+            File Name
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AttendanceTracker.#ctor">
+            <summary>
+            AttendanceTracker constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AttendanceTracker.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AttendanceTracker.ApplyConditionFormatting(Syncfusion.XlsIO.IWorksheet)">
+            <summary>
+            Apply the conditonal format using workbook
+            </summary>
+            <param name="worksheet">worksheet used to get the range and set the conditional formats</param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AttendanceTracker.FillAttendanceDetails(Syncfusion.XlsIO.IWorksheet)">
+            <summary>
+            Used to fill the attendance details
+            </summary>
+            <param name="worksheet">worksheet used to get the range and fill attendance details</param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AttendanceTracker.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.EmployeeDetails">
+            <summary>
+            Returrn the list of employee details
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.AttendanceDetailsGenerator">
+            <summary>
+            Get the attendance details and return the list
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.AutoFill">
+            <summary>
+            Interaction logic for AutoFill.xaml
+            </summary>
+            <summary>
+            AutoFill
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AutoFill.AutoFillMethod(Syncfusion.XlsIO.ExcelAutoFillType)">
+            <summary>
+            Method to create a document with using AutoFill option.
+            </summary>
+            <param name="autoFillOption"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AutoFill.FillSeriesMethod(Syncfusion.XlsIO.ExcelFillSeries,Syncfusion.XlsIO.ExcelSeriesBy,System.Object,System.Object,System.Boolean)">
+            <summary>
+            Method to apply fill series.
+            </summary>
+            <param name="fillSeries"></param>
+            <param name="seriesBy"></param>
+            <param name="stepValue"></param>
+            <param name="stopValue"></param>
+            <param name="enableTrend"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AutoFill.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.AutoShape">
+            <summary>
+            Interaction logic for AutoShape.xaml
+            </summary>
+            <summary>
+            AutoShape
+            </summary>
+        </member>
+        <member name="F:syncfusion.xlsiodemos.wpf.AutoShape.fileName">
+            <summary>
+            File Name
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AutoShape.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AutoShape.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet with chart
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.AutoShape.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.BoxAndWhisker">
+            <summary>
+            Interaction logic for BoxAndWhisker.xaml
+            </summary>
+            <summary>
+            BoxAndWhisker
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.BoxAndWhisker.#ctor">
+            <summary>
+            BoxAndWhisker constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.BoxAndWhisker.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the file path of input file and return the same
+            </summary>
+            <param name="inputPath">Input file</param>
+            <returns>path of the input file</returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.BoxAndWhisker.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.BudgetPlanner">
+            <summary>
+            Interaction logic for BudgetPlanner.xaml
+            </summary>
+            <summary>
+            BudgetPlanner
+            </summary>
+        </member>
+        <member name="F:syncfusion.xlsiodemos.wpf.BudgetPlanner.filename">
+            <summary>
+            File Name
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.BudgetPlanner.#ctor">
+            <summary>
+            BudgetPlanner constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.BudgetPlanner.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.BudgetPlanner.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.BudgetPlanner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.CallCenterDashboard">
+            <summary>
+            Interaction logic for CallCenterDashboard.xaml
+            </summary>
+            <summary>
+            CallCenterDashboard
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CallCenterDashboard.#ctor">
+            <summary>
+            CallCenterDashboard Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CallCenterDashboard.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CallCenterDashboard.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CallCenterDashboard.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ChartWorksheet">
+            <summary>
+            Interaction logic for ChartWorksheet.xaml
+            </summary>
+            <summary>
+            ChartWorksheet
+            </summary>
+        </member>
+        <member name="F:syncfusion.xlsiodemos.wpf.ChartWorksheet.filename">
+            <summary>
+            File Name
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ChartWorksheet.#ctor">
+            <summary>
+            ChartWorksheet constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ChartWorksheet.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet with chart
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ChartWorksheet.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.CollectionObjects">
+            <summary>
+            Interaction logic for CollectionObjects.xaml
+            </summary>
+            <summary>
+            CollectionObjects
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CollectionObjects.#ctor">
+            <summary>
+            CollectionObjects constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CollectionObjects.btnExport_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CollectionObjects.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the file path of input file and return the same
+            </summary>
+            <param name="inputPath">Input file</param>
+            <returns>path of the input file</returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CollectionObjects.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Comments">
+            <summary>
+            Interaction logic for Comments.xaml
+            </summary>
+            <summary>
+            Comments
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Comments.#ctor">
+            <summary>
+            WhatIfAnalysis constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Comments.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ComputeAllFormulas">
+            <summary>
+            Interaction logic for ComputeAllFormulas.xaml
+            </summary>
+            <summary>
+            ComputeAllFormulas
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeAllFormulas.#ctor">
+            <summary>
+            ComputeAllFormulas constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeAllFormulas.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeAllFormulas.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the file path of input file and return the same
+            </summary>
+            <param name="inputPath">Input file</param>
+            <returns>path of the input file</returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeAllFormulas.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ComputeSpecificFormula">
+            <summary>
+            Interaction logic for ComputeSpecificFormula.xaml
+            </summary>
+            <summary>
+            ComputeSpecificFormula
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeSpecificFormula.#ctor">
+            <summary>
+            ComputeSpecificFormula constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeSpecificFormula.btnOpen_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            View the sample spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeSpecificFormula.btnImport_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Imports to table using Essential XlsIO
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeSpecificFormula.listView_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Computes the formula based on selection in listview
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeSpecificFormula.Window_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Explicitly closes the workbook and engine
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeSpecificFormula.UpdateTable(System.Data.DataTable,System.Int32)">
+            <summary>
+            Updates the table with the Datatable
+            </summary>
+            <param name="customersTable"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ComputeSpecificFormula.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ConditionalFormatting">
+            <summary>
+            Interaction logic for ConditionalFormatting.xaml
+            </summary>
+            <summary>
+            ConditionalFormatting
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ConditionalFormatting.#ctor">
+            <summary>
+            ConditionalFormatting constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ConditionalFormatting.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ConditionalFormatting.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.CreateMacro">
+            <summary>
+            Interaction logic for CreateMacro.xaml
+            </summary>
+            <summary>
+            CreateMacro
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CreateMacro.#ctor">
+            <summary>
+            CreateMacro constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CreateMacro.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates and saves the macro file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CreateMacro.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the input file and return the path of input file
+            </summary>
+            <param name="inputFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CreateMacro.GetVbaCode">
+            <summary>
+            Get the Vba code as string
+            </summary>
+            <param name="inputFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CreateMacro.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.CreateSpreadsheet">
+            <summary>
+            Interaction logic for CreateSpreadsheet.xaml
+            </summary>
+            <summary>
+            CreateSpreadsheet
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CreateSpreadsheet.#ctor">
+            <summary>
+            CreateSpreadsheet constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CreateSpreadsheet.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CreateSpreadsheet.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the input file and return the path of input file
+            </summary>
+            <param name="inputFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.CreateSpreadsheet.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.DataValidation">
+            <summary>
+            Interaction logic for DataValidation.xaml
+            </summary>
+            <summary>
+            DataValidation
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.DataValidation.#ctor">
+            <summary>
+            DataValidation constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.DataValidation.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.DataValidation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.DocumentSettings">
+            <summary>
+            Interaction logic for DocumentSettings.xaml
+            </summary>
+            <summary>
+            DocumentSettings
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.DocumentSettings.#ctor">
+            <summary>
+            DocumentSettings constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.DocumentSettings.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.DocumentSettings.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.EditMacro">
+            <summary>
+            Interaction logic for EditMacro.xaml
+            </summary>
+            <summary>
+            EditMacro
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EditMacro.#ctor">
+            <summary>
+            EditMacro constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EditMacro.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Loads the input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EditMacro.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Edits and saves the macro file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EditMacro.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the input file and return the path of input file
+            </summary>
+            <param name="inputFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EditMacro.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.EmbeddedChart">
+            <summary>
+            Interaction logic for EmbeddedChart.xaml
+            </summary>
+            <summary>
+            EmbeddedChart
+            </summary>
+        </member>
+        <member name="F:syncfusion.xlsiodemos.wpf.EmbeddedChart.filename">
+            <summary>
+            File Name
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EmbeddedChart.#ctor">
+            <summary>
+            EmbeddedChart constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EmbeddedChart.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet with chart
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EmbeddedChart.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.EncryptAndDecrypt">
+            <summary>
+            Interaction logic for EncryptAndDecrypt.xaml
+            </summary>
+            <summary>
+            EncryptAndDecrypt
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EncryptAndDecrypt.#ctor">
+            <summary>
+            EncryptAndDecrypt constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EncryptAndDecrypt.btnEncrypt_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Encrypt the selected spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EncryptAndDecrypt.btnDecrypt_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Decrypt the selected spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.EncryptAndDecrypt.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ExcelToJSON">
+            <summary>
+            Interaction logic for ExcelToJSON.xaml
+            </summary>
+            <summary>
+            ExcelToJSON
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToJSON.#ctor">
+            <summary>
+            ExcelToJSON constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToJSON.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToJSON.btnConvert_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Convert To JSON
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToJSON.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ExcelToODS">
+            <summary>
+            Interaction logic for ExcelToODS.xaml
+            </summary>
+            <summary>
+            ExcelToODS
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToODS.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToODS.btnExcelToODS_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToODS.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the input file and return the path of input file
+            </summary>
+            <param name="inputFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToODS.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ExcelToPDF">
+            <summary>
+            Interaction logic for ExcelToPDF1.xaml
+            </summary>
+            <summary>
+            ExcelToPDF
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDF.#ctor">
+            <summary>
+            ExcelToPDF constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDF.btnConvertToPDF_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Convert Excel To PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDF.SubstituteFont(System.Object,Syncfusion.XlsIO.Implementation.SubstituteFontEventArgs)">
+            <summary>
+            Substitute Font
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDF.CheckfontStream_UnChecked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Check the FontStream Value and set the input path
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDF.CheckfontStream_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Check the FontStream Value and set the input path
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDF.CheckfontName_UnChecked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Check the Font Name and set the input path
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDF.CheckfontName_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Check the Font Name and set the input path
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDF.btnInput_Click(System.Object,System.EventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDF.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ExcelToPDFUA">
+            <summary>
+            Interaction logic for ExcelToPDFUA.xaml
+            </summary>
+            <summary>
+            ExcelToPDFUA
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDFUA.#ctor">
+            <summary>
+            ExcelToPDF constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDFUA.btnConvertToPDF_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Convert Excel To PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExcelToPDFUA.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ExpensesReport">
+            <summary>
+            Interaction logic for ExpensesReport.xaml
+            </summary>
+            <summary>
+            ExpensesReport
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExpensesReport.#ctor">
+            <summary>
+            ExpensesReport constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExpensesReport.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender">Contains a reference to the control/object that raised the event</param>
+            <param name="e">Contains the event data</param>    
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExpensesReport.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ExternalFormula">
+            <summary>
+            Interaction logic for ExternalFormula.xaml
+            </summary>
+            <summary>
+            ExternalFormula
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExternalFormula.#ctor">
+            <summary>
+            ExternalFormula constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExternalFormula.btnWrite_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Writes formula to spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExternalFormula.btnRead_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Reads formula from spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ExternalFormula.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Filters">
+            <summary>
+            Interaction logic for Filters.xaml
+            </summary>
+            <summary>
+            Filters
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Filters.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.FindAndExtract">
+            <summary>
+            Interaction logic for FindAndExtract.xaml
+            </summary>
+            <summary>
+            FindAndExtract
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.FindAndExtract.#ctor">
+            <summary>
+            FindAndExtract constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.FindAndExtract.btnExtract_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.FindAndExtract.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.FormatCells">
+            <summary>
+            Interaction logic for FormatCells.xaml
+            </summary>
+            <summary>
+            FormatCells
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.FormatCells.#ctor">
+            <summary>
+            FormatCells Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.FormatCells.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.FormatCells.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.FormControls">
+            <summary>
+            Interaction logic for FormControls.xaml
+            </summary>
+            <summary>
+            FormControls
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.FormControls.#ctor">
+            <summary>
+            FormControls constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.FormControls.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.FormControls.GenerateFormula(Syncfusion.XlsIO.ExcelEngine)">
+            <summary>
+            Generates the formula and linkedcell 
+            </summary>
+            <param name="excelEngine">excel application engine</param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.FormControls.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Formula">
+            <summary>
+            Interaction logic for Formula.xaml
+            </summary>
+            <summary>
+            Formula
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Formula.#ctor">
+            <summary>
+            Formulas constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Formula.btnWrite_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Writes formula to spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Formula.btnRead_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Reads formula from spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Formula.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Funnel">
+            <summary>
+            Interaction logic for Funnel.xaml
+            </summary>
+            <summary>
+            Funnel
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Funnel.#ctor">
+            <summary>
+            Funnel constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Funnel.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the file path of input file and return the same
+            </summary>
+            <param name="inputPath">Input file</param>
+            <returns>path of the input file</returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Funnel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.GroupShape">
+            <summary>
+            Interaction logic for GroupShape.xaml
+            </summary>
+            <summary>
+            GroupShape
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.GroupShape.#ctor">
+            <summary>
+            WorksheetManagement Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.GroupShape.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Create spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.GroupShape.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.GroupShape.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ImportExportDataTable">
+            <summary>
+            Interaction logic for ImportExportDataTable.xaml
+            </summary>
+            <summary>
+            ImportExportDataTable
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportExportDataTable.#ctor">
+            <summary>
+            ImportExportDataTable constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportExportDataTable.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportExportDataTable.btnImport_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Importing using XlsIO
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportExportDataTable.btnExport_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Exporting using XlsIO
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportExportDataTable.UpdateListView(System.Data.DataTable)">
+            <summary>
+            Updates the list view with the datatable
+            </summary>
+            <param name="table"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportExportDataTable.ExportDataTableEventActions(Syncfusion.XlsIO.Implementation.ExportDataTableEventArgs)">
+            <summary>
+            Export dataTable required actions.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportExportDataTable.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ImportHTMLTable">
+            <summary>
+            Interaction logic for ImportHTMLTable.xaml
+            </summary>
+            <summary>
+            ImportHTMLTable
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportHTMLTable.#ctor">
+            <summary>
+            ImportHTMLTable constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportHTMLTable.btnImport_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Imports spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportHTMLTable.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportHTMLTable.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ImportNestedCollection">
+            <summary>
+            Interaction logic for ImportNestedCollection.xaml
+            </summary>
+            <summary>
+            ImportNestedCollection
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ImportNestedCollection.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.InteractiveFeatures">
+            <summary>
+            Interaction logic for InteractiveFeatures.xaml
+            </summary>
+            <summary>
+            InteractiveFeatures
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.InteractiveFeatures.#ctor">
+            <summary>
+            InteractiveFeatures constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.InteractiveFeatures.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.InteractiveFeatures.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.OleObject">
+            <summary>
+            Interaction logic for OleObject.xaml
+            </summary>
+            <summary>
+            OleObject
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.OleObject.#ctor">
+            <summary>
+            OleObject constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.OleObject.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.OleObject.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Performance">
+            <summary>
+            Interaction logic for Performance.xaml
+            </summary>
+            <summary>
+            Performance
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Performance.#ctor">
+            <summary>
+            Performance Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Performance.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Performance.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.PivotChart">
+            <summary>
+            Interaction logic for PivotChart.xaml
+            </summary>
+            <summary>
+            PivotChart
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.PivotChart.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.PivotTable">
+            <summary>
+            Interaction logic for PivotTable.xaml
+            </summary>
+            <summary>
+            PivotTable
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.PivotTable.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.PivotTableLayout">
+            <summary>
+            Interaction logic for PivotTableLayout.xaml
+            </summary>
+            <summary>
+            PivotTableLayout
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.PivotTableLayout.#ctor">
+            <summary>
+            PivotTableLayout constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.PivotTableLayout.btnCreate_Click(System.Object,System.EventArgs)">
+            <summary>
+            Create Pivot Table
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.PivotTableLayout.btnConvert_Click(System.Object,System.EventArgs)">
+            <summary>
+            Convert Pivot Table
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.PivotTableLayout.CreatePivotTable(Syncfusion.XlsIO.IWorkbook)">
+            <summary>
+            Create pivot table with the workbook
+            </summary>
+            <param name="workbook"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.PivotTableLayout.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Print">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Print
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Print.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.RangeManipulation">
+            <summary>
+            Interaction logic for RangeManipulation.xaml
+            </summary>
+            <summary>
+            RangeManipulation
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.RangeManipulation.#ctor">
+            <summary>
+            RangeManipulation constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.RangeManipulation.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.RangeManipulation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.ReplaceOptions">
+            <summary>
+            Interaction logic for ReplaceOptions.xaml
+            </summary>
+            <summary>
+            ReplaceOptions
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ReplaceOptions.#ctor">
+            <summary>
+            ReplaceOptions constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ReplaceOptions.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the input file and return the path of input file
+            </summary>
+            <param name="inputFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ReplaceOptions.ReplaceData(System.String)">
+            <summary>
+            Replaces data in the given excel file.
+            </summary>
+            <param name="fileName">The excel file in which replace operation is to be done.</param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.ReplaceOptions.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.RowColumnManipulation">
+            <summary>
+            Interaction logic for RowColumnManipulation.xaml
+            </summary>
+            <summary>
+            RowColumnManipulation
+            </summary>
+        </member>
+        <member name="F:syncfusion.xlsiodemos.wpf.RowColumnManipulation.filename">
+            <summary>
+            File Name
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.RowColumnManipulation.#ctor">
+            <summary>
+            RowColumnManipulation Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.RowColumnManipulation.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.RowColumnManipulation.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.RowColumnManipulation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Slicer">
+            <summary>
+            Interaction logic for Slicer.xaml
+            </summary>
+            <summary>
+            Slicer
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Slicer.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Sorting">
+            <summary>
+            Interaction logic for Sorting.xaml
+            </summary>
+            <summary>
+            Sorting
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Sorting.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Sparklines">
+            <summary>
+            Interaction logic for Sparklines.xaml
+            </summary>
+            <summary>
+            Sparklines
+            </summary>
+        </member>
+        <member name="F:syncfusion.xlsiodemos.wpf.Sparklines.filename">
+            <summary>
+            File Name
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Sparklines.#ctor">
+            <summary>
+            Sparklines constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Sparklines.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Sparklines.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.StylesAndFormatting">
+            <summary>
+            Interaction logic for StylesAndFormatting.xaml
+            </summary>
+            <summary>
+            StylesAndFormatting
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.StylesAndFormatting.#ctor">
+            <summary>
+            StylesAndFormatting Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.StylesAndFormatting.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.StylesAndFormatting.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.StylesAndFormatting.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Sunburst">
+            <summary>
+            Interaction logic for Sunburst.xaml
+            </summary>
+            <summary>
+            Sunburst
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Sunburst.#ctor">
+            <summary>
+            Sunburst constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Sunburst.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the file path of input file and return the same
+            </summary>
+            <param name="inputPath">Input file</param>
+            <returns>path of the input file</returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Sunburst.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.TableFormula">
+            <summary>
+            Interaction logic for TableFormula.xaml
+            </summary>
+            <summary>
+            TableFormula
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TableFormula.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Create spreadsheet with Table formula
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TableFormula.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Tables">
+            <summary>
+            Interaction logic for Tables.xaml
+            </summary>
+            <summary>
+            Tables
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Tables.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Create spreadsheet with Table
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Tables.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.TemplateMarker">
+            <summary>
+            Interaction logic for TemplateMarker.xaml
+            </summary>
+            <summary>
+            TemplateMarker
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TemplateMarker.#ctor">
+            <summary>
+            TemplateMarker constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TemplateMarker.Window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Window Load
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TemplateMarker.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TemplateMarker.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TemplateMarker.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the file path of input file and return the same
+            </summary>
+            <param name="inputPath">Input file</param>
+            <returns>path of the input file</returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TemplateMarker.GetTable">
+            <summary>
+            Creates DataTable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TemplateMarker.GetCustomerAsObjects">
+            <summary>
+            Gets the Collection of objects from the XML data.
+            </summary>
+            <returns>Collection of Customer Objects</returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TemplateMarker.InitDataSet">
+            <summary>
+            Inits the data set.
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.TemplateMarker.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.Treemap">
+            <summary>
+            Interaction logic for Treemap.xaml
+            </summary>
+            <summary>
+            Treemap
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Treemap.#ctor">
+            <summary>
+            Treemap constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Treemap.GetFullTemplatePath(System.String)">
+            <summary>
+            Get the file path of input file and return the same
+            </summary>
+            <param name="inputPath">Input file</param>
+            <returns>path of the input file</returns>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.Treemap.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.WhatIfAnalysis">
+            <summary>
+            Interaction logic for WhatIfAnalysis.xaml
+            </summary>
+            <summary>
+            WhatIfAnalysis
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WhatIfAnalysis.#ctor">
+            <summary>
+            WhatIfAnalysis constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WhatIfAnalysis.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.WorkbookProtection">
+            <summary>
+            Interaction logic for WorkbookProtection.xaml
+            </summary>
+            <summary>
+            WorkbookProtection
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorkbookProtection.#ctor">
+            <summary>
+            WorkbookProtection constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorkbookProtection.btnProtect_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Protects Workbook
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorkbookProtection.btnUnprotect_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Unprotects workbook
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorkbookProtection.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.WorksheetManagement">
+            <summary>
+            Interaction logic for WorksheetManagement.xaml
+            </summary>
+            <summary>
+            WorksheetManagement
+            </summary>
+        </member>
+        <member name="F:syncfusion.xlsiodemos.wpf.WorksheetManagement.filename">
+            <summary>
+            File Name
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetManagement.#ctor">
+            <summary>
+            WorksheetManagement Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetManagement.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Create spreadsheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetManagement.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetManagement.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.WorksheetProtection">
+            <summary>
+            Interaction logic for WorksheetProtection.xaml
+            </summary>
+            <summary>
+            WorksheetProtection
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetProtection.#ctor">
+            <summary>
+            WorksheetProtection constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetProtection.btnLock_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Lock worksheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetProtection.btnUnlock_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Unlock worksheet
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetProtection.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.WorksheetToHTML">
+            <summary>
+            Interaction logic for WorksheetToHTML.xaml
+            </summary>
+            <summary>
+            WorksheetToHTML
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetToHTML.#ctor">
+            <summary>
+            WorksheetToHTML constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetToHTML.btnConvertToHTML_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Converts spreadsheet to HTML
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetToHTML.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetToHTML.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.WorksheetToImage">
+            <summary>
+            Interaction logic for WorksheetToImage.xaml
+            </summary>
+            <summary>
+            WorksheetToImage
+            </summary>
+        </member>
+        <member name="F:syncfusion.xlsiodemos.wpf.WorksheetToImage.filename">
+            <summary>
+            File Name
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetToImage.#ctor">
+            <summary>
+            WorksheetToImage constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetToImage.btnConvertToImage_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Converts spreadsheet to Image
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetToImage.btnInput_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens input template
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.WorksheetToImage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.xlsiodemos.wpf.YearlySales">
+            <summary>
+            Interaction logic for YearlySales.xaml
+            </summary>
+            <summary>
+            YearlySales
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.YearlySales.#ctor">
+            <summary>
+            YearlySales constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.YearlySales.btnCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates spreadsheet
+            </summary>
+            <param name="sender">Contains a reference to the control/object that raised the event</param>
+            <param name="e">Contains the event data</param>    
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.YearlySales.CreateStyles(Syncfusion.XlsIO.IWorkbook)">
+             <summary>
+            Create styles using workbook
+             </summary>
+             <param name="workbook">workbook used to create the styles</param>
+        </member>
+        <member name="M:syncfusion.xlsiodemos.wpf.YearlySales.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

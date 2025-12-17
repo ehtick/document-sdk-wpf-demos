@@ -1,0 +1,1465 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>syncfusion.pdfdemos.wpf</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.Zugferd.CountryCodes">
+            <summary>
+            Country codes
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Zugferd.CurrencyCodes">
+            <summary>
+            Currency Codes
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Zugferd.InvoiceType">
+            <summary>
+            Invoice Type
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Zugferd.Product">
+            <summary>
+            Invoice product
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Zugferd.UserDetails">
+            <summary>
+            User Details
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Zugferd.ZugferdInvoice">
+            <summary>
+            zugferd Invoice
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Zugferd.ZugferdProfile">
+            <summary>
+            Zugferd Profile
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:syncfusion.pdfdemos.wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:syncfusion.pdfdemos.wpf.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.AdventureCycle">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            AdventureCycle
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AdventureCycle.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AdventureCycle.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AdventureCycle.ConvertToPdfGridBuiltinStyle(System.String)">
+            <summary>
+            Convert string to PdfGridBuiltinStyle
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AdventureCycle.GetAdventureWorkCycleDataSet">
+            <summary>
+            Returns dataset.
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AdventureCycle.AddHeader(Syncfusion.Pdf.PdfDocument,System.String,System.String)">
+            <summary>
+            Adds header to the PDF document
+            </summary>
+            <param name="doc"></param>
+            <param name="title"></param>
+            <param name="description"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AdventureCycle.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.AnnotationFlatten">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            AnnotationFlatten
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AnnotationFlatten.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AnnotationFlatten.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AnnotationFlatten.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.AutoTag">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            AutoTag
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AutoTag.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AutoTag.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.AutoTag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.Barcode">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Barcode
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Barcode.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Barcode.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Barcode.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.Booklet">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Booklet
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Booklet.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Booklet.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates Booklet Pdf
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Booklet.btnSource_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the source document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Booklet.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.BulletsAndLists">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            BulletsAndLists
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.BulletsAndLists.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.BulletsAndLists.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.BulletsAndLists.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.ComplexScript">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            ComplexScript
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ComplexScript.#ctor">
+            <summary>
+            Window Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ComplexScript.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ComplexScript.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.CompressExistingPDF">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            CompressExistingPDF
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.CompressExistingPDF.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.CustomTag">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            CustomTag
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.CustomTag.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.CustomTag.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.CustomTag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.DigitalSignature">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            DigitalSignature
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.DigitalSignature.#ctor">
+            <summary>
+            Window Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.DigitalSignature.btnNewPDF_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates new PDF and signs it.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.DigitalSignature.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.DocumentSettings">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            DocumentSettings
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.DocumentSettings.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.DocumentSettings.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.DocumentSettings.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.DrawingShapes">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            DrawingShapes
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.DrawingShapes.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.DrawingShapes.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.DrawingShapes.DrawRectangles(System.Drawing.PointF,Syncfusion.Pdf.Graphics.PdfGraphics,Syncfusion.Pdf.Graphics.PdfFont,Syncfusion.Pdf.Graphics.PdfBrush,Syncfusion.Pdf.Graphics.PdfPen,Syncfusion.Pdf.PdfDocument)">
+            <summary>
+            Draw rectangles
+            </summary>
+            <param name="startPoint"></param>
+            <param name="g"></param>
+            <param name="font"></param>
+            <param name="brush"></param>
+            <param name="pen"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.DrawingShapes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.Encryption">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Encryption
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Encryption.#ctor">
+            <summary>
+            Window Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Encryption.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Encryption.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.ExceltoPDF">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            ExceltoPDF
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ExceltoPDF.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.FindPDFCorruption">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            FindPDFCorruption
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.FindPDFCorruption.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.FindPDFCorruption.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.FindPDFCorruption.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.FormFilling">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            FormFilling
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.FormFilling.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.FormFilling.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.FormFilling.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens the template PDF document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.FormFilling.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.GraphicBrushes">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            GraphicBrushes
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.GraphicBrushes.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.GraphicBrushes.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.GraphicBrushes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.HeadersAndFooters">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            HeadersAndFooters
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.HeadersAndFooters.#ctor">
+            <summary>
+            Window Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.HeadersAndFooters.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates the PDF file.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.HeadersAndFooters.EndPageLayout2(System.Object,Syncfusion.Pdf.Graphics.EndPageLayoutEventArgs)">
+            <summary>
+            Called when the text reaches end of the page.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.HeadersAndFooters.BeginPageLayout2(System.Object,Syncfusion.Pdf.Graphics.BeginPageLayoutEventArgs)">
+            <summary>
+            Called when the text flows to next page.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.HeadersAndFooters.AddHeader(Syncfusion.Pdf.PdfDocument,System.String,System.String)">
+            <summary>
+            Addds header to the pdf document.
+            </summary>
+            <param name="doc"></param>
+            <param name="title"></param>
+            <param name="description"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.HeadersAndFooters.AddFooter(Syncfusion.Pdf.PdfDocument,System.String)">
+            <summary>
+            Adds footer to the pdf document.
+            </summary>
+            <param name="doc"></param>
+            <param name="footerText"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.HeadersAndFooters.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.HelloWorld">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            HelloWorld
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.HelloWorld.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.HelloWorld.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.HelloWorld.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.ImageExtraction">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            ImageExtraction
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImageExtraction.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImageExtraction.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImageExtraction.btnSource_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the source document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImageExtraction.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.ImageInsertion">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            ImageInsertion
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImageInsertion.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImageInsertion.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImageInsertion.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.ImportAndStamp">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            ImportAndStamp
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImportAndStamp.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImportAndStamp.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImportAndStamp.BrowseButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the input file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ImportAndStamp.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.InteractiveFeatures">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            InteractiveFeatures
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.InteractiveFeatures.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.InteractiveFeatures.GetAdventureWorkCycleDataSet">
+            <summary>
+            Returns dataset.
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.InteractiveFeatures.CreateTextBox(Syncfusion.Pdf.PdfPage,System.String,System.String,System.Drawing.RectangleF,System.Boolean,System.String)">
+            <summary>
+            Creates textbox and adds it in the form.
+            </summary>
+            <param name="page"></param>
+            <param name="text"></param>
+            <param name="tooltip"></param>
+            <param name="f"></param>
+            <param name="bounds"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.InteractiveFeatures.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.JobApplication">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            JobApplication
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.JobApplication.CreateTextBox(Syncfusion.Pdf.PdfPage,System.String,System.String,System.Drawing.Font,System.Drawing.RectangleF)">
+            <summary>
+            Creates textbox and adds it in the form
+            </summary>
+            <param name="page"></param>
+            <param name="text"></param>
+            <param name="tooltip"></param>
+            <param name="f"></param>
+            <param name="bounds"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.JobApplication.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.Layers">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Layers
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Layers.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Layers.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Layers.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.MergeDocuments">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            MergeDocuments
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.MergeDocuments.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.MergeDocuments.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.MergeDocuments.btnBrowse1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Gets the first document to merge
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.MergeDocuments.btnBrowse2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Gets the second document to merge
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.MergeDocuments.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.MultiColumnText">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            MultiColumnText
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.MultiColumnText.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.MultiColumnText.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.MultiColumnText.AddHeader(Syncfusion.Pdf.PdfDocument,System.String,System.String)">
+            <summary>
+            Addds header to the pdf document.
+            </summary>
+            <param name="doc"></param>
+            <param name="title"></param>
+            <param name="description"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.MultiColumnText.AddFooter(Syncfusion.Pdf.PdfDocument,System.String)">
+            <summary>
+            Adds footer to the pdf document.
+            </summary>
+            <param name="doc"></param>
+            <param name="footerText"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.MultiColumnText.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.NamedDestination">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            NamedDestination
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.NamedDestination.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.NamedDestination.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.NamedDestination.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.OpenTypeFont">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            OpenTypeFont
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.OpenTypeFont.#ctor">
+            <summary>
+            Window Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.OpenTypeFont.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.OpenTypeFont.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.OverlayDocuments">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            OverlayDocuments
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.OverlayDocuments.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.OverlayDocuments.btnBrowse_Click(System.Object,System.EventArgs)">
+            <summary>
+            Gets the input file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.OverlayDocuments.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.OverlayDocuments.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.PageSettings">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            PageSettings
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PageSettings.#ctor">
+            <summary>
+            Window Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PageSettings.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PageSettings.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.PDFCompressionLevel">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            PDFCompressionLevel
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFCompressionLevel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.PDFConformance">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            PDFConformance
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFConformance.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFConformance.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFConformance.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.PDFToImage">
+            <summary>
+            Interaction logic for PDFToImage.xaml
+            </summary>
+            <summary>
+            PDFToImage
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFToImage.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFToImage.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFToImage.btnSource_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the source document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFToImage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.PDFToPDFA1b">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            PDFToPDFA1b
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFToPDFA1b.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFToPDFA1b.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.PDFToPDFA1b.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.Portfolio">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Portfolio
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Portfolio.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Portfolio.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Portfolio.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.Redaction">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            Redaction
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Redaction.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Redaction.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.Redaction.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.RemoveImage">
+            <summary>
+            Interaction logic for RemoveImage.xaml
+            </summary>
+            <summary>
+            RemoveImage
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.RemoveImage.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.RemoveImage.BrowseButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the input file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.RemoveImage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.RTLSupport">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            RTLSupport
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.RTLSupport.#ctor">
+            <summary>
+            Window Constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.RTLSupport.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.RTLSupport.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.SignatureValidation">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            SignatureValidation
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.SignatureValidation.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.SignatureValidation.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.SignatureValidation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.SplitDocument">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            SplitDocument
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.SplitDocument.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.SplitDocument.textBoxSplit_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Updates the page combobox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.SplitDocument.btnBrowse_Click(System.Object,System.EventArgs)">
+            <summary>
+            Gets the input file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.SplitDocument.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.SplitDocument.comboBoxPage_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Validates the page number
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.SplitDocument.Window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Window Load
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.SplitDocument.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.TableFeatures">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            TableFeatures
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TableFeatures.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TableFeatures.GetProductsDataSet">
+            <summary>
+            Returns dataset.
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TableFeatures.GetReportsDataSet">
+            <summary>
+            Returns dataset.
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TableFeatures.table_StartCellLayout(System.Object,Syncfusion.Pdf.Tables.BeginCellLayoutEventArgs)">
+            <summary>
+            Draws ellipse inside the cell using cell bounds.
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TableFeatures.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.TextExtraction">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            TextExtraction
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TextExtraction.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TextExtraction.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TextExtraction.btnSource_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the source document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TextExtraction.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.TextFlow">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            TextFlow
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TextFlow.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TextFlow.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TextFlow.EndPageLayout(System.Object,Syncfusion.Pdf.Graphics.EndPageLayoutEventArgs)">
+            <summary>
+            Called to draw the graphic elements for each page
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.TextFlow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.WordToPDF">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            WordToPDF
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.WordToPDF.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.XFAFormCreation">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            XFAFormCreation
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XFAFormCreation.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XFAFormCreation.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XFAFormCreation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.XFAFormFilling">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            XFAFormFilling
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XFAFormFilling.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XFAFormFilling.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XFAFormFilling.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens the template PDF document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XFAFormFilling.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.XPStoPDF">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            XPStoPDF
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XPStoPDF.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XPStoPDF.btnTopdf_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XPStoPDF.btnBrowse_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Gets the source document
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.XPStoPDF.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.pdfdemos.wpf.ZugFerd">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            ZugFerd
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ZugFerd.#ctor">
+            <summary>
+            Window constructor
+            </summary>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ZugFerd.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates PDF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ZugFerd.CreateZugferdInvoicePDF(Syncfusion.Pdf.PdfDocument)">
+            <summary>
+            Create Zugferd Invoice Pdf
+            </summary>
+            <param name="document"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ZugFerd.GetZugferdDataset">
+            <summary>
+            Get dataset from xml file.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ZugFerd.GetTotalAmount(Syncfusion.Pdf.Grid.PdfGrid)">
+            <summary>
+            Get the Total amount of purcharsed items
+            </summary>
+            <param name="grid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.pdfdemos.wpf.ZugFerd.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

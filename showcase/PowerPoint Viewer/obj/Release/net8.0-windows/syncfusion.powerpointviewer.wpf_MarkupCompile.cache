@@ -1,0 +1,20 @@
+﻿syncfusion.powerpointviewer.wpf
+
+
+library
+C#
+.cs
+C:\Git\RP\wpf-demos\showcase\PowerPoint Viewer\obj\Release\net8.0-windows\
+syncfusion.powerpointviewer.wpf
+none
+false
+TRACE;TRACE;NET50;;RELEASE;NET;NET8_0;NETCOREAPP
+
+11886229690
+11954088576
+4541385374
+216834690507
+Views\PowerPointViewer.xaml;
+
+False
+
