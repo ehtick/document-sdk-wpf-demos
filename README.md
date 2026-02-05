@@ -1,4 +1,4 @@
-# Syncfusion® Document SDK WPF Demos 
+﻿# Syncfusion® Document SDK WPF Demos 
 
 This repository contains the demos of [Syncfusion Document SDK for WPF](https://www.syncfusion.com/document-processing). This is the best place to check our document processing libraries to get more insight about the usage of APIs. The Document SDK includes comprehensive file format libraries for creating, manipulating, and converting various document formats, including PDF, Word, Excel, and PowerPoint.
 
@@ -123,4 +123,4 @@ Syncfusion has no liability for any damage or consequence that may arise by the 
 
 * Don't see what you need? Please request it in our [Feedback portal](https://www.syncfusion.com/feedback/file-formats).
 
-<p>Copyright © 2001-2025 Syncfusion, Inc. Updated on 2025-01-13 at precisely 12:52:39 EST.</p>
+<p>Copyright © 2001-2026 Syncfusion, Inc. Updated on 2026-02-05 at precisely 07:56:35 EST.</p>
