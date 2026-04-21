@@ -123,4 +123,4 @@ Syncfusion has no liability for any damage or consequence that may arise by the 
 
 * Don't see what you need? Please request it in our [Feedback portal](https://www.syncfusion.com/feedback/file-formats).
 
-<p>Copyright © 2001-2026 Syncfusion, Inc. Updated on 2026-03-17 at precisely 05:57:51 EST.</p>
+<p>Copyright © 2001-2026 Syncfusion, Inc. Updated on 2026-04-21 at precisely 13:24:09 EST.</p>
