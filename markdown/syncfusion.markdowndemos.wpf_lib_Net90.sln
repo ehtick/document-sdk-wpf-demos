@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11822.322 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "syncfusion.markdowndemos.wpf_lib_Net90", "syncfusion.markdowndemos.wpf_lib_Net90.csproj", "{FEE14819-6863-461F-A932-9F05C102B972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "syncfusion.demoscommon.wpf_lib_Net90", "../common/syncfusion.demoscommon.wpf_lib_Net90.csproj", "{9EF55CDB-ED67-4A06-BC2A-1F811F791191}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEE14819-6863-461F-A932-9F05C102B972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE14819-6863-461F-A932-9F05C102B972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE14819-6863-461F-A932-9F05C102B972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE14819-6863-461F-A932-9F05C102B972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF55CDB-ED67-4A06-BC2A-1F811F791191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF55CDB-ED67-4A06-BC2A-1F811F791191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF55CDB-ED67-4A06-BC2A-1F811F791191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF55CDB-ED67-4A06-BC2A-1F811F791191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A940879-A1D6-425F-9AED-DB9739DD3868}
+	EndGlobalSection
+EndGlobal
